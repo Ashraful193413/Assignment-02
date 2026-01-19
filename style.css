@@ -1,3 +1,90 @@
-h1{
-    background-color: tomato;
+
+.inter-font-style{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.btn{
+    background:linear-gradient(to right, #FB09B4, #9100F8 );
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+nav{
+    height: 92px;
+}
+
+.hero-circle-img{
+    position: relative;
+    left: 625px;
+    top: 100px;
+}
+.hero-circle{
+    height: 350px;
+    width: 350px;
+}
+.mirophone-img{
+    position: relative;
+    left: 740px;
+    bottom: 150px;
+}
+.hero-miro-img{
+    width: 117px;
+    height: 175px;
+}
+.new-btn{
+    position: relative;
+    left: 870px;
+    bottom: 400px;
+    width: 75px;
+    height: 38px;
+    background-color: #00FF88;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.nav-btn{
+    background:linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+}
+
+#hero-bg-img{
+    background-image: url('/assets/hero-bg.png');
+    height: 760px;
+    width: 100%;
+}
+/* shered styles */
+#bg-color{
+    background-color: rgba(26, 11, 46, 1);
+}
+
+#techwave{
+    background-color: rgba(35, 14, 61, 1);
+}
+.tech-container{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6)  , 225px;
+}
+.first-div{
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 40px;
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.second-div{
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 40px;
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.third-div{
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 40px;
+}
+.ifram-sec{
+    background-color: rgba(37, 13, 68, 1);
+    border-radius: 20px;
+    
 }

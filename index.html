@@ -3,11 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Assignment-02</title>
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="/tailwind.css">
 </head>
 <body>
-    <h1>Bangladesh</h1>
+    <header class="inter-font-style">
+        <!-- nav section -->
+        <nav id="bg-color" class="flex justify-between items-center">
+            <h2 class="ml-16 text-white font-extrabold text-3xl">Tech <span class="btn">Wave</span></h2>
+            <ul class="flex">
+                <li class="mr-4 text-white">About</li>
+                <li class="mr-4 text-white">Episodes</li>
+                <li class="text-white">Host</li>
+            </ul>
+            <button class="nav-btn mr-16 px-4 py-3 rounded-3xl text-white">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+        </nav>
+        <!-- hero sectons -->
+         <section id="hero-bg-img" class="flex-col">
+           <div class="hero-circle-img">
+             <img class="hero-circle" src="/assets/hero-circle.png" alt="">
+           </div>
+           <div class="mirophone-img">
+            <img class="hero-miro-img" src="/assets/microphone.png" alt="">
+           </div>
+           <div class="new-btn">
+            <button class="new">NEW</button>
+           </div>
+           
+            <div class="text-center mt-32">
+            <h2 class="font-extrabold text-white text-3xl pb-2">TrchWave</h2>
+            <p class="text-white pb-2">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+
+            <button class="nav-btn w-[160px] h-[44px] rounded-3xl m-1"><i class="fa-brands fa-spotify"></i> Listen On Spotify</button>
+
+            <button class="text-[#00FF88] w-[147px] h-[44px] border border-[#00FF88] rounded-3xl m-1"><i class="fa-regular fa-envelope"></i> Subscribe</button>
+            </div>
+         </section>
+    </header>
+    <main>
+        <!-- card sections -->
+         <div id="bg-color" class="px-52 pt-12 pb-28">
+            <div class="text-center mx-auto  w-6xl h-56">
+                <h1 class="font-bold text-white text-2xl mt-28 mb-4">About The Podcast</h1>
+                <p class="text-white mb-6">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br>
+                We break down complex topics into digestible insights, explore productivity strategies that actually work, <br>
+                and share stories of personal growth from industry leaders.</p>
+                <p class="text-white mb-20">Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+            </div>
+       
+            <div class="flex justify-center gap-20">
+                <div class="bg-[rgba(53, 17, 101, 0.4)]">
+                    <h1 class="text-[#00FF88] font-extrabold text-4xl">150K+</h1>
+                    <P class="text-white">MONTHLY LISTENERS</P>
+                </div>
+                <div>
+                    <h1 class="text-[#00FF88] font-extrabold text-4xl">200+</h1>
+                    <P class="text-white">EPISODES PUBLISHED</P>
+                </div>
+                <div>
+                    <h1 class="text-[#00FF88] font-extrabold text-4xl">4.9<i class="fa-regular fa-star"></i></h1>
+                    <P class="text-white">AVERAGE RATING</P>
+                </div>
+                <div>
+                    <h1 class="text-[#00FF88] font-extrabold text-4xl">50+</h1>
+                    <P class="text-white">INDUSTRY EXPERTS</P>
+                </div>
+                
+            </div>
+         </div>
+
+        
+            <section id="techwave" class="pt-24">
+            <h1 class="font-bold text-white text-2xl text-center pb-9">Why Choose TechWave</h1>
+
+            <div class="tech-container w-7xl mx-auto">
+
+            <div class="first-div">
+                <img class="mb-3.5" src="/assets/headphone.png" alt="">
+                <h3 class="text-white font-bold text-2xl mb-3.5">Premium Audio</h3>
+                <p class="text-white mb-2">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+            </div>
+            <div class="second-div">
+                <img class="mb-3.5" src="/assets/device.png" alt="">
+                <h3 class="text-white font-bold text-2xl mb-3.5">Mobile Friendly</h3>
+                <p class="text-white">Listen on the go with seamless mobile experience and offline downloads.</p>
+            </div>
+            <div class="second-div">
+                <img class="mb-3.5" src="/assets/location.png" alt="">
+                <h3 class="text-white font-bold text-2xl mb-3.5">Global Community</h3>
+                <p class="text-white">Connect with tech enthusiasts from over 120 countries worldwide.</p>
+            </div>
+            <div class="second-div">
+                <img class="mb-3.5" src="/assets/zap-fast.png" alt="">
+                <h3 class="text-white font-bold text-2xl mb-3.5">Exclusive Interviews</h3>
+                <p class="text-white">Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
+            </div>
+            <div class="third-div">
+                <img class="mb-3.5" src="/assets/resource.png" alt="">
+                <h3 class="text-white font-bold text-2xl mb-3.5">Rich Resources</h3>
+                <p class="text-white">Access show notes, transcripts, and additional learning materials for every episode.</p>
+            </div>
+            </div>
+         </section>
+        </div>
+
+         <section id="bg-color">
+            <h1 class="font-bold text-white text-2xl py-12 text-center">Featured Episodes</h1> 
+
+          <div class="flex gap-8 justify-center">
+              <div class="w-96 ifram-sec">  
+                <iframe width="100%" height="214" src="https://www.youtube.com/embed/LvTZlRhLh0g?si=okZaOUGfe2pAOxbg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+                <h1 class="font-bold text-white text-2xl mb-4 px-5">The Feature of Al in Everyday <br> Life</h1>
+                <p class="text-white mb-4 px-5">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
+
+                <p class="text-[#00FF88] px-5"><i class="fa-regular fa-clock"></i> 42 min</p>
+            </div>
+            <div class="w-96 ifram-sec">  
+                <iframe width="100%" height="214" src="https://www.youtube.com/embed/G-zyTlZQYpE?si=8-s_JWD_IyQgZZIC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+                <h1 class="font-bold text-white text-2xl mb-4 px-5">Building Better Habits for <br> Remote Work</h1>
+                <p class="text-white mb-4 px-5">Practical strategies for staying productive and maintaining work-life balance in a remote environment.</p>
+
+                <p class="text-[#00FF88] px-5"><i class="fa-regular fa-clock"></i> 35 min</p>
+            </div>
+            <div class="w-96 ifram-sec">  
+                <iframe width="100%" height="214" src="https://www.youtube.com/embed/eXdVDhOGqoE?si=QusJj-Ge7gdUZH1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+                <h1 class="font-bold text-white text-2xl mb-4 px-5">Career Growth in Tech: A <br> Roadmap</h1>
+                <p class="text-white mb-4 px-5">Expert advice on navigating your tech career from tech career from junior developer to senior leadership roles.</p>
+
+                <p class="text-[#00FF88] px-5"><i class="fa-regular fa-clock"></i> 51 min</p>
+            </div>
+          </div>
+         </section>
+    </main>
+
 </body>
 </html>
